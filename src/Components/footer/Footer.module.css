@@ -1,0 +1,34 @@
+/* Footer.module.css */
+.main {
+    margin: 30px;
+    margin-top: 50px; /* Increased top margin for more spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main h6 {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .main hr {
+    margin-bottom: 15px; /* Increased bottom margin for better separation */
+    border: none;
+    border-top: 1px solid #ccc; /* Gray border color */
+    width: 80%; /* Adjusted width */
+  }
+  
+  .main3 {
+    margin-top: 10px;
+    color: #777;
+    font-size: 14px; /* Slightly smaller font size */
+  }
+  
+  /* Added a subtle hover effect on the site name */
+  .main3:hover {
+    color: #333;
+    transition: color 0.3s;
+  }
+  

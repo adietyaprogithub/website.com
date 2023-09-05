@@ -1,0 +1,73 @@
+/* Placement.module.css */
+.cardContainer {
+  display: flex;
+  overflow-x: auto; /* Changed to auto for smoother scrolling */
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.container {
+  margin: 30px;
+}
+
+.main2 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center; /* Center-align the title */
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.imgr {
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.imgr1 {
+  margin: 20px ;
+ 
+ 
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px; /* Added padding to the card body */
+}
+
+.card .card-body .btn-primary {
+  margin-top: auto;
+}
+
+.card .card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .card-text {
+  text-align: center; /* Center-align the card text */
+  color: #555; /* Slightly muted text color */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue button color */
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

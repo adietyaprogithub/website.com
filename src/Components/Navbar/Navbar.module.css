@@ -1,0 +1,9 @@
+/* Assuming you want to use pixels for margin values */
+.bgBodyTertiary {
+   margin-bottom: 30px;
+   margin-left: 30px;
+   margin-right: 30px;
+    background-color: skyblue;
+  }
+  
+  

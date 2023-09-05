@@ -1,0 +1,44 @@
+/* Compony.module.css */
+.imgr {
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  object-fit: contain; /* Adjust image positioning */
+  background-color: #fff; /* White background for images */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0; /* Adjust margin for better spacing */
+}
+
+.heading {
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold; /* Added bold font weight */
+}
+
+.container {
+  margin-top: 30px;
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.container:hover {
+  transform: translateY(-2px); /* Lift the card slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

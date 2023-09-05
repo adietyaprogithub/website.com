@@ -1,0 +1,42 @@
+/* Placed.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    overflow-y: scroll;
+    background-color: #f2f2f2; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main2 {
+    background-color: #87ceeb; /* Sky blue background */
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .main2:hover {
+    background-color: #66b3ff; /* Lighter shade of sky blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .main2 label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .main2 p {
+    font-size: 14px;
+    color: #444;
+  }
+  
